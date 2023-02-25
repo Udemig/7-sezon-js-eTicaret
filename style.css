@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: orange;
+  color: white;
+  padding: 10px;
+}
+header input {
+  padding: 7px;
+  border-radius: 4px;
+  border: none;
+}
+
+.buttons button {
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons button:nth-child(1) {
+  background-color: red;
+}
+.buttons button:nth-child(2) {
+  background-color: dodgerblue;
+}
+
+.buttons button:last-child {
+  background-color: green;
+}
+/* KATEGORİLER */
+.categories-box {
+  padding: 20px;
+}
+.categories-box h1 {
+  margin-bottom: 10px;
+}
+#categories {
+  display: flex;
+  gap: 20px;
+}
+.category {
+  max-width: 300px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.category img {
+  width: 100%;
+  border-radius: 10px;
+}
+.category p {
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  text-align: center;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
