@@ -13,7 +13,7 @@
       <h1>E-TİCARET</h1>
       <input type="text" placeholder="aramak istediğin ürünü yazın" />
       <div class="buttons">
-        <button>Sepet</button>
+        <button id="sepet">Sepet</button>
         <button>Kayıt Ol</button>
         <button>Giriş Yap</button>
       </div>
@@ -24,6 +24,27 @@
       <div id="categories"></div>
     </div>
 
+    <!-- ÜRÜNLER -->
+    <div class="products-box">
+      <h1>Ürünler</h1>
+      <div id="products">
+      </div>
+    </div>
+
+    <div class="modal-box">
+      <div class="modal">
+        <a id="close"> X </a>
+        <div class="urunDiv">
+          <h1> Concrete Tuna</h1>
+          <h2>1000</h2>
+        </div>
+        <div class="alt">
+             <span>TOPLAM FİYAT: </span>
+        <span id="toplamBilgi"></span>
+        </div>
+     
+      </div>
+    </div>
     <!-- SCRİPTS -->
     <script src="main.js"></script>
   </body>
